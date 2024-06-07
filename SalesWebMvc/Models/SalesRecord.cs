@@ -1,8 +1,10 @@
 ﻿using SalesWebMvc.Models.Enums;
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SalesWebMvc.Models
 {
+    [Table("salesrecord")]
     public class SalesRecord
     {
         public int Id { get; set; }
